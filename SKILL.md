@@ -3,6 +3,10 @@ name: tiktok-kol-discovery
 description: 基于TikTok的实时数据，通过自然语言检索TikTok上的达人。支持按关键词、点赞数等方向筛选，并查看达人的作品及作品表现数据、互动数据、评论内容等，分析达人画像、内容特点、活跃表现和近期作品等，帮助用户快速发现和判断适合合作的达人。提供3个能力①关键词搜索（可按点赞/相关度排序、发布时间筛选）②博主作品获取，按主页链接或用户名批量获取公开作品列表，支持最新/最热排序 ③视频评论抓取，按视频链接或作品 ID 获取评论内容、评论者与互动数据，输出结构化 JSON（含作者、互动数据、标签、链接）。
 license: MIT
 version: 1.0.0
+display_name: 🎯TikTok达人发现与洞察
+display_name_en: TikTok KOL Discovery Insight
+description_zh: 基于TikTok的实时数据，通过自然语言检索TikTok上的达人。支持按关键词、点赞数等方向筛选，并查看达人的作品及作品表现数据、互动数据、评论内容等，分析达人画像、内容特点、活跃表现和近期作品等，帮助用户快速发现和判断适合合作的达人。
+description_en: Retrieve creators on TikTok via natural language search based on real-time TikTok data. Filter by keywords, likes and other metrics, and view creators’ posts along with post performance data, engagement metrics, and comment content. Analyze creator personas, content characteristics, activity status and recent works to help users quickly discover and evaluate creators suitable for collaboration.
 metadata:
   enabled: true
   type: command
@@ -90,7 +94,7 @@ metadata:
     - "分析某条视频 40 条评论: node scripts/tiktok/comment-cli.js --url 'https://www.tiktok.com/@username/video/1234567890123456789' --limit 40"
 ---
 
-# 🚀 TikTok达人发现与洞察
+# 🎯 TikTok达人发现与洞察
 
 ## 1. 能力概览
 
